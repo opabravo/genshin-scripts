@@ -1,7 +1,7 @@
 """Common utils for Genshin Impact."""
-import pyautogui
 import ctypes
 import sys
+import pyautogui
 
 
 def gain_admin_priv():

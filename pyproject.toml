@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["FateWalker <21262207+opabravo@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "genshin_scripts"}]
+packages = [{ include = "genshin_scripts" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -12,6 +12,7 @@ pywin32 = "^305"
 pyautogui = "^0.9.53"
 pillow = "^9.3.0"
 opencv-python = "^4.6.0.66"
+loguru = "^0.6.0"
 
 
 [build-system]

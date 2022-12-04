@@ -1,17 +1,21 @@
 import time
 import pyautogui
+from utils.logger import logger
 from utils.locator import Locator
 
 
 class Mouse:
     """Mouse Manager"""
-    @staticmethod
-    def click_multi(player_count: int):
+
+    def __init__(self):
+        self.logger = logger
+
+    def click_multi(self, player_count: int):
         """Clicks and join world depending on the player count."""
         positions = Locator().multi_player_count(player_count)
         for position in positions:
-            print(f"{player_count} Players : | Found {position}")
-            pyautogui.click(position.left, position.top+35)
+            pyautogui.click(position.left, position.top + 35)
+            self.logger.success(f"Clicked : {player_count} Players | At {position}")
             time.sleep(0.1)
 
     @staticmethod

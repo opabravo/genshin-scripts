@@ -3,6 +3,7 @@ import pyautogui
 
 class KeyBoard:
     """Keyboard Manager"""
+
     @staticmethod
     def press(key: str):
         """Presses the key."""
@@ -17,4 +18,3 @@ class KeyBoard:
     def press_esc():
         """Presses the esc key."""
         pyautogui.press("esc")
-
