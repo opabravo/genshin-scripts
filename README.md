@@ -19,16 +19,14 @@ Continuously updating.
 git clone https://github.com/opabravo/genshin-scripts.git
 cd genshin-scripts
 poetry install
-poetry run python main.py
-```
-Or just activate the virtual environment and run the script:
-```bash
-poetry shell
-python xxx.py
 ```
 
 ## Usage
+Activate virtual environment and run the script:
 
+```bash
+poetry shell
+```
 ### Scripts
 
 - `main.py` - Main script to run all other scripts
