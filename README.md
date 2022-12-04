@@ -1,5 +1,5 @@
 # Genshin Impact Scripts
-![](https://i.imgur.com/3YeFaHT.gif)
+![](https://i.imgur.com/QQfOdLw.gif)
 
 ## Description
 This is a collection of personal scripts for the game Genshin Impact.
