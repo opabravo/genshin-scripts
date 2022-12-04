@@ -26,4 +26,4 @@ class Mouse:
         """Drags the mouse from start to end."""
         pyautogui.moveTo(start[0], start[1])
         pyautogui.dragTo(end[0], end[1], button='left', duration=duration)
-        pyautogui.click(end[0], end[1], button='left', duration=duration)
+        pyautogui.click(end[0], end[1], button='left')
