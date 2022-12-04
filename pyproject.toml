@@ -10,6 +10,8 @@ packages = [{include = "genshin_scripts"}]
 python = "^3.11"
 pywin32 = "^305"
 pyautogui = "^0.9.53"
+pillow = "^9.3.0"
+opencv-python = "^4.6.0.66"
 
 
 [build-system]
