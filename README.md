@@ -22,11 +22,12 @@ poetry install
 ```
 
 ## Usage
-Activate virtual environment and run the script:
-
+1. Make sure you have the game running in windowed mode(1600x900).
+2. Activate virtual environment and run the script:
 ```bash
 poetry shell
 ```
+
 ### Scripts
 
 - `main.py` - Main script to run all other scripts
